@@ -17,7 +17,8 @@ Throughout this project, I have achieved the following tasks:
 - Optimized queries on song play analysis.
 
 # Methodology / Technology
-## Why SQL?
+## Postgres
+
 
 ## Star Schema Design 
 
