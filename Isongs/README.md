@@ -77,7 +77,7 @@ Each record contains metadata about a song and the artist of that song.
 # How does this project work?
 To run the project successfully on a local machine, we need PostgreSQL and Python3. 
 
-The installation guidelines for both are provided: [PostgreSQL](https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb) &  [Anaconda](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x)
+The installation guidelines for both are provided: [PostgreSQL](https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb) &  [Anaconda](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x).
 
 
 Inside the terminal, type followings line by line:
