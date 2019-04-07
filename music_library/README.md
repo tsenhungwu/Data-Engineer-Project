@@ -4,8 +4,8 @@ To fully utilize the data and perform profound analysis on users' activities, it
 
 The analytics team might be particularly interested in answering the following business questions: 
   - What types of songs and artists are users listening to?
-  - When is the most frequent time users logging into the app?
-  - How long have users stayed on the app for each logging activity? 
+  - When is the most frequent time users logging into the app? 
+  - How long have users stayed on the app for each logging activity?
 
 # Objectives
 Previously, data resided in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs.
