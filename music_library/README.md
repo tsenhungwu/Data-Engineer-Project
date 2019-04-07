@@ -72,7 +72,7 @@ Each record contains metadata about a song and the artist of that song.
   
 - 2nd normal form
   - Have reached 1NF.
-  - All columns in the table must rely on the primary key (only one).
+  - All columns in the table must rely on the primary key.
 
 - 3rd normal form
   - Have reached 2NF.
