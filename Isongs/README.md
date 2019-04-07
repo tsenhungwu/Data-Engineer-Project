@@ -1,5 +1,5 @@
 <p align="middle">
-  <img height="337" width="445" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Isongs.png" />
+  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Isongs.png" />
   
 # Introduction
 On a music streaming platform such as an app or a website, data have been transferred among different activities every day down to every millisecond.
@@ -21,7 +21,7 @@ Throughout this project, I have achieved the following tasks:
 
 # Technology
 <p align="middle">
-  <img height="194" width="222" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/PostgreSQL.png" />
+  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/PostgreSQL.png" />
   <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Python.png" />
   
 # Data Source
