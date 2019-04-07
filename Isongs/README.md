@@ -85,7 +85,7 @@ Each record contains metadata about a song and the artist of that song.
 
 ## Star Schema Design - ERD
 <p align="middle">
-<img height="355" width="634" src="https://github.com/tsenhungwu/Data-Engineer-Project/tree/master/Isongs/ERD.png" />
+<img height="355" width="634" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/ERD.png" />
 
 
 # How does this project work?
