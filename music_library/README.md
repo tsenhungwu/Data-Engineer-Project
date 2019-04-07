@@ -59,7 +59,7 @@ Each record contains metadata about a song and the artist of that song.
 
 
 - Take the '2018-11-12-events.json' as an example: 
-<img height="105" width="1502" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/log_data.png" />
+<img height="90" width="1502" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/log_data.png" />
 
 
 # Methodology
