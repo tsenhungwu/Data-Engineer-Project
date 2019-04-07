@@ -11,7 +11,7 @@ The analytics team might be particularly interested in answering the following b
 Previously, data resided in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs.
 Throughout this project, I have achieved the following tasks:
 
-- [x] Data modeling by normalizations with Postgres and built an ETL pipeline using Python. 
+- [x] Data modeling by normalizations with Postgres.
 - [x] Designed a Star Schema by combining fact and dimension tables for a particular analytic focus.
 - [x] Built an ETL pipeline which transfers data from JSON files in two local directories into tables in Postgres using Python and SQL queries.
 - [x] Optimized queries on song play analysis.
