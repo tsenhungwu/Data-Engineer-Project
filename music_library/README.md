@@ -22,16 +22,15 @@ Throughout this project, I have achieved the following tasks:
   <img height="203" width="601" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/Python.png" />
   
 # Source Data
-- Song dataset 
+- Song dataset (Reference: https://labrosa.ee.columbia.edu/millionsong/)
 
-It is a subset of real data from the Million Song Dataset. (Reference: https://labrosa.ee.columbia.edu/millionsong/)
+It is a subset of real data from the Million Song Dataset. 
 
 The files are partitioned by the first three letters of each song's track ID. 
 
 For example, here are filepaths to two files in this dataset:
   
     song_data/A/B/C/TRABCEI128F424C983.json
-  
     song_data/A/A/B/TRAABJL12903CDCF1A.json
   
 
