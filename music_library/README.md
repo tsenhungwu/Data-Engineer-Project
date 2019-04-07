@@ -20,6 +20,7 @@ Throughout this project, I have achieved the following tasks:
 ## Postgres
 <p align="middle">
   <img height="200" width="250" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/PostgreSQL.png" />
+  <img height="200" width="250" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/Python.png" />
 
 
 ## Star Schema Design 
