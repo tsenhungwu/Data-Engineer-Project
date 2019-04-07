@@ -76,7 +76,7 @@ Each record contains metadata about a song and the artist of that song.
 
 - 3rd normal form
   - Have reached 2NF.
-  - **No transitive dependencies**
+  - **No transitive dependencies.**
 
 ## Star Schema Design - ERD
 <p align="middle">
