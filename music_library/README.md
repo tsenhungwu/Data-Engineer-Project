@@ -21,7 +21,7 @@ Throughout this project, I have achieved the following tasks:
   <img height="194" width="222" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/PostgreSQL.png" />
   <img height="203" width="601" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/Python.png" />
   
-# Source Data
+# Data Source
 - Song dataset
 
 It is a subset of real data from [the Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/). 
