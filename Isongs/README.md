@@ -1,5 +1,5 @@
 <p align="middle">
-  <img width="450" height="400" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Isongs.png" />
+  <img width="450" height="380" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Isongs.png" />
   
 # Introduction
 On a music streaming platform such as an app or a website, data have been transferred among different activities every day down to every millisecond.
