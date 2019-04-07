@@ -19,7 +19,7 @@ Throughout this project, I have achieved the following tasks:
 # Methodology / Technology
 ## Postgres
 <p align="middle">
-  <img height="225" width="225" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/PostgreSQL.png" />
+  <img height="200" width="225" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/PostgreSQL.png" />
   <img height="200" width="500" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/Python.png" />
 
 
