@@ -20,12 +20,24 @@ Throughout this project, I have achieved the following tasks:
 <p align="middle">
   <img height="194" width="222" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/PostgreSQL.png" />
   <img height="203" width="601" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/Python.png" />
+  
+# Source Data
+- Song dataset 
+It is a subset of real data from the Million Song Dataset. (Link: https://labrosa.ee.columbia.edu/millionsong/)
+The files are partitioned by the first three letters of each song's track ID. 
+For example, here are filepaths to two files in this dataset:
+  song_data/A/B/C/TRABCEI128F424C983.json
+  song_data/A/A/B/TRAABJL12903CDCF1A.json
+  
+
 
 # Raw Data Exploration
-Data is mainly divided into two parts, Song Dataset and Log Dataset.
+Data is mainly divided into two parts, Song dataset and Log dataset. 
+
 Below are the screenshots of these two datasets:
 
 - Take the 'TRAAABD128F429CF47.json' as an example: 
+Each record contains metadata about a song and the artist of that song. 
 <img height="78" width="1188" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/song_data.png" />
 
 
