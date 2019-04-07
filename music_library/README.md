@@ -63,6 +63,8 @@ Each record contains metadata about a song and the artist of that song.
 
 
 # Methodology
+# Normalizations
+
 ## Star Schema Design 
 
 # How does this project work?
