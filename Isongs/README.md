@@ -1,5 +1,5 @@
 <p align="middle">
-  <img height="337" width="445" src="https://github.com/tsenhungwu/Data-Engineer-Project/tree/master/Isongs/Isongs.png" />
+  <img height="337" width="445" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Isongs.png" />
   
 # Introduction
 On a music streaming platform such as an app or a website, data have been transferred among different activities every day down to every millisecond.
@@ -21,8 +21,8 @@ Throughout this project, I have achieved the following tasks:
 
 # Technology
 <p align="middle">
-  <img height="194" width="222" src="https://github.com/tsenhungwu/Data-Engineer-Project/tree/master/Isongs/PostgreSQL.png" />
-  <img height="203" width="601" src="https://github.com/tsenhungwu/Data-Engineer-Project/tree/master/Isongs/Python.png" />
+  <img height="194" width="222" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/PostgreSQL.png" />
+  <img height="203" width="601" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Python.png" />
   
 # Data Source
 - Song dataset
@@ -57,14 +57,14 @@ Below are the screenshots of these two datasets:
 
 - Take the 'TRAAABD128F429CF47.json' as an example: 
 Each record contains metadata about a song and the artist of that song. 
-<img height="78" width="1188" src="https://github.com/tsenhungwu/Data-Engineer-Project/tree/master/Isongs/song_data.png" />
+<img height="78" width="1188" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/song_data.png" />
 
 
 
 - Take the '2018-11-12-events.json' as an example: 
 
-<img src="https://github.com/tsenhungwu/Data-Engineer-Project/tree/master/Isongs/log_data1.png" height="104" width="971"/> 
-<img src="https://github.com/tsenhungwu/Data-Engineer-Project/tree/master/Isongs/log_data2.png" height="108" width="227"/> 
+<img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/log_data1.png" height="104" width="971"/> 
+<img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/log_data2.png" height="108" width="227"/> 
 
 
 # Key Methodologies
