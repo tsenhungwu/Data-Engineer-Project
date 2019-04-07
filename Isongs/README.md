@@ -22,7 +22,7 @@ Throughout this project, I have achieved the following tasks:
 # Technology
 <p align="middle">
   <img height="194" width="222" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/PostgreSQL.png" />
-  <img height="203" width="601" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Python.png" />
+  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Python.png" />
   
 # Data Source
 - Song dataset
