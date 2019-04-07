@@ -62,7 +62,6 @@ Each record contains metadata about a song and the artist of that song.
 <img height="105" width="1502" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/log_data.png" />
 
 
-
 # Methodology
 ## Star Schema Design 
 
