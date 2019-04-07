@@ -62,8 +62,21 @@ Each record contains metadata about a song and the artist of that song.
 <img height="105" width="1502" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/log_data.png" />
 
 
-# Methodology
-# Normalizations
+# Key Methodologies
+## Normalizations
+- 1st normal form
+  - Atomic values: each cell contains unique and single values (avoid values of lists).
+  - Be able to add data without altering tables.
+  - Separate different relations into different tables.
+  - Keep relationships between tables together with foreign keys.
+  
+- 2nd normal form
+  - Have reached 1NF.
+  - All columns in the table must rely on the primary key (only one).
+
+- 3rd normal form
+  - Have reached 2NF.
+  - **No transitive dependencies**
 
 ## Star Schema Design - ERD
 <p align="middle">
