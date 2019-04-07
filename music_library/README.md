@@ -16,12 +16,15 @@ Throughout this project, I have achieved the following tasks:
 - Built an ETL pipeline which transfers data from JSON files in two local directories into tables in Postgres using Python and SQL queries.
 - Optimized queries on song play analysis.
 
-# Methodology / Technology
+# Technology
 <p align="middle">
   <img height="200" width="225" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/PostgreSQL.png" />
   <img height="200" width="500" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/Python.png" />
 
+# Raw Data Exploration
+Data is mainly divided into two parts, Song Dataset and Log Dataset.
 
+
+# Methodology
 ## Star Schema Design 
 
-# Raw Data Exploration
