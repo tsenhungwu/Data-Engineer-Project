@@ -26,7 +26,7 @@ Data is mainly divided into two parts, Song Dataset and Log Dataset.
 Below are the screenshots of these two datasets:
 
 - Take the 'TRAAABD128F429CF47.json' as an example: 
-<img height="78" width="1188" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/song_data.png" />
+<img height="105" width="1502" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/song_data.png" />
 
 
 
