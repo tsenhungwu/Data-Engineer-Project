@@ -22,9 +22,9 @@ Throughout this project, I have achieved the following tasks:
   <img height="203" width="601" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/Python.png" />
   
 # Source Data
-- Song dataset (Reference: https://labrosa.ee.columbia.edu/millionsong/)
+- Song dataset
 
-It is a subset of real data from the Million Song Dataset. 
+It is a subset of real data from [the Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/). 
 
 The files are partitioned by the first three letters of each song's track ID. 
 
@@ -33,7 +33,7 @@ For example, here are filepaths to two files in this dataset:
     song_data/A/B/C/TRABCEI128F424C983.json
     song_data/A/A/B/TRAABJL12903CDCF1A.json
   
-- Log dataset (Reference: https://github.com/Interana/eventsim)
+- Log dataset
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
