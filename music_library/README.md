@@ -66,6 +66,7 @@ Each record contains metadata about a song and the artist of that song.
 # Normalizations
 
 ## Star Schema Design - ERD
+<p align="middle">
 <img height="355" width="634" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/ERD.png" />
 
 
