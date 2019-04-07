@@ -1,3 +1,6 @@
+<p align="middle">
+  <img height="674" width="890" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/Isongs.png" />
+  
 # Introduction
 On a music streaming platform such as an app or a website, data have been transferred among different activities every day down to every millisecond.
 To fully utilize the data and perform profound analysis on users' activities, it's extremely critical to design an architect or a data pipeline in an efficient way such that following analysis can be completed accordingly and iteratively.
