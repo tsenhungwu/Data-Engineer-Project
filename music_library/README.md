@@ -18,8 +18,8 @@ Throughout this project, I have achieved the following tasks:
 
 # Technology
 <p align="middle">
-  <img height="200" width="225" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/PostgreSQL.png" />
-  <img height="190" width="500" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/Python.png" />
+  <img height="194" width="222" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/PostgreSQL.png" />
+  <img height="203" width="601" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/Python.png" />
 
 # Raw Data Exploration
 Data is mainly divided into two parts, Song Dataset and Log Dataset.
@@ -27,7 +27,7 @@ Below are the screenshots of these two datasets:
 
 <img height="78" width="1188" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/song_data.png" />
 
-<img height="200" width="225" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/log_data.png" />
+<img height="460" width="1525" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/log_data.png" />
 
 
 
