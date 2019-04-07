@@ -27,7 +27,7 @@ Below are the screenshots of these two datasets:
 
 <img height="78" width="1188" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/song_data.png" />
 
-<img height="430" width="1700" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/log_data.png" />
+<img height="460" width="1700" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/log_data.png" />
 
 
 
