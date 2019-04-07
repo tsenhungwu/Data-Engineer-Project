@@ -31,7 +31,7 @@ Below are the screenshots of these two datasets:
 
 
 - Take the '2018-11-12-events.json' as an example: 
-<img height="460" width="1600" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/log_data.png" />
+<img height="460" width="1550" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/log_data.png" />
 
 
 
