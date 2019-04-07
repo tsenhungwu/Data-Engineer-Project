@@ -19,7 +19,7 @@ Throughout this project, I have achieved the following tasks:
 # Methodology / Technology
 ## Postgres
 <p align="middle">
-  <img height="200" width="300" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/PostgreSQL.png" />
+  <img height="300" width="400" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/music_library/PostgreSQL.png" />
 
 
 ## Star Schema Design 
