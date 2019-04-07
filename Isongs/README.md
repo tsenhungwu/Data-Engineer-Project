@@ -44,7 +44,7 @@ These simulate app activity logs from a music streaming app based on specified c
 
 The log files in the dataset I worked with are partitioned by year and month. 
 
-For example, here are filepaths to two files in this dataset:
+For example, here are file paths to two files in this dataset:
 
     log_data/2018/11/2018-11-12-events.json
     log_data/2018/11/2018-11-13-events.json
