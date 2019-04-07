@@ -7,7 +7,7 @@ The analytics team might be particularly interested in answering the following b
   - When is the most frequent time users logging into the app?
   - How long have users stayed on the app for each logging activity? 
 
-# Objective
+# Objectives
 Previously, data resided in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs.
 Throughout this project, I have achieved the following tasks:
 
