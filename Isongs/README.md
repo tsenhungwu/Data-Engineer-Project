@@ -57,21 +57,21 @@ Below are the screenshots of these two datasets:
 
 - Take the 'TRAAABD128F429CF47.json' as an example: 
 Each record contains metadata about a song and the artist of that song. 
-<img height="78" width="1188" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/song_data.png" />
+<img height="78" width="1188" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/song_data.png" />
 
 
 
 - Take the '2018-11-12-events.json' as an example: 
 
-<img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/log_data1.png" height="104" width="971"/> 
-<img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/log_data2.png" height="108" width="227"/> 
+<img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/log_data1.png" height="104" width="971"/> 
+<img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/log_data2.png" height="108" width="227"/> 
 
 
 # Key Methodology
 
 ## Star Schema Design - ERD
 <p align="middle">
-<img height="355" width="634" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/ERD.png" />
+<img height="355" width="634" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/ERD.png" />
 
 
 # How does this project work?
