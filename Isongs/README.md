@@ -89,4 +89,9 @@ Each record contains metadata about a song and the artist of that song.
 
 
 # How does this project work?
-
+Inside the terminal, type followings line by line:
+```
+python kevin_create_tables.py
+python kevin_etl.py
+```
+Then, open kevin_testing.ipynb to test the tables created in isongs database.
