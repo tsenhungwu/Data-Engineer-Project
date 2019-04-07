@@ -19,8 +19,7 @@ Throughout this project, I have achieved the following tasks:
 # Methodology / Technology
 ## Postgres
 <p align="middle">
-  <img height="200" width="300" src="https://github.com/xbellyx/Data-Science-Project/blob/master/Yelp%20Data%20Challenge/Yelp_image.jpg" /> 
-< /p>
+  <img height="200" width="300" src="https://github.com/xbellyx/Data-Science-Project/blob/master/Yelp%20Data%20Challenge/Yelp_image.jpg" />
 
 
 ## Star Schema Design 
