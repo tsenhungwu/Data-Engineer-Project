@@ -14,7 +14,7 @@ The analytics team might be particularly interested in answering the following b
 Previously, data resided in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs.
 Throughout this project, I have achieved the following tasks:
 
-- Data modeling by normalizations with Postgres.
+- Data modeling with Postgres.
 - Designed a Star Schema by combining fact and dimension tables for a particular analytic focus.
 - Built an ETL pipeline which transfers data from JSON files in two local directories into tables in Postgres using Python and SQL queries.
 - Optimized queries on song play analysis.
@@ -67,21 +67,7 @@ Each record contains metadata about a song and the artist of that song.
 <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/log_data2.png" height="108" width="227"/> 
 
 
-# Key Methodologies
-## Normalizations
-- 1st normal form
-  - Atomic values: each cell contains unique and single values (avoid values of lists).
-  - Be able to add data without altering tables.
-  - Separate different relations into different tables.
-  - Keep relationships between tables together with foreign keys.
-  
-- 2nd normal form
-  - Have reached 1NF.
-  - All columns in the table must rely on the primary key.
-
-- 3rd normal form
-  - Have reached 2NF.
-  - **No transitive dependencies.**
+# Key Methodology
 
 ## Star Schema Design - ERD
 <p align="middle">
