@@ -52,7 +52,7 @@ I am more focus in specific attributes (11 items) compared with the original csv
 
 # Key Methodology
 
-## Schema Design - ERD
+## Schema Design
 The special thing in design a Schema in Apache Cassandra is to 'think queries first'.
 
 In order to answer the above proposed questions, following three tables were created: 
@@ -79,8 +79,6 @@ In order to answer the above proposed questions, following three tables were cre
   <br>Partition Keys: (song, userId) <br>
   <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/song_library.png" />
 </p>
-
-
 
 
 
