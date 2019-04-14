@@ -90,7 +90,7 @@ The installation guidelines for both are provided: [Apache Cassandra](http://cas
 
 Inside the terminal, type followings line by line (if in a local machine, might need to initiate Apache Cassandra first):
 ```
-python kevin_create_event_csv.py (generate a narrow-down csv event file from total all csv files)
+python kevin_create_event_csv.py (generate a narrow-down csv event file from all csv files)
 python kevin_cassandra_creat_tables.py (create three tables in Apache Cassandra)
 python kevin_cassandra_etl.py (insert corresponding records in three tables)
 ```
