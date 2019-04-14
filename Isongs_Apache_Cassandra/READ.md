@@ -87,6 +87,7 @@ To run the project successfully on a local machine, we need Apache Cassandra and
 
 The installation guidelines for both are provided: [Apache Cassandra](http://cassandra.apache.org/doc/latest/getting_started/installing.html) &  [Anaconda](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x).
 
+Outside the terminal, first download data.zip.
 
 Inside the terminal, type followings line by line (if in a local machine, might need to initiate Apache Cassandra first):
 ```
