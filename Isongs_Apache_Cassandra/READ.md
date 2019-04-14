@@ -85,7 +85,7 @@ In order to answer the proposed questions, following three tables were created:
 # How does this project work?
 To run the project successfully on a local machine, we need Apache Cassandra and Python3. 
 
-**Step 1: The installation guidelines for both are provided: [Apache Cassandra](http://cassandra.apache.org/doc/latest/getting_started/installing.html) &  [Anaconda](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x).**
+**Step 1: The installation guidelines of both are provided: [Apache Cassandra](http://cassandra.apache.org/doc/latest/getting_started/installing.html) &  [Anaconda](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x).**
 
 **Step 2: Outside the terminal, first download data.zip.**
 
