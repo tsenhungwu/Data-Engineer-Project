@@ -60,6 +60,7 @@ In order to answer the above proposed questions, following three tables were cre
 <p align="center">
   <b>1.session_item_library:</b>
   <br>Attain artist names, song titles and songs' duration in a music app history that was heard during specific sessions and number of items.<br>
+  <br>Partition Keys: <br>
   <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/session_item_library.png" />
 </p>
 
