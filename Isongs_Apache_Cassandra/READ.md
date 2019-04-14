@@ -85,11 +85,11 @@ In order to answer the proposed questions, following three tables were created:
 # How does this project work?
 To run the project successfully on a local machine, we need Apache Cassandra and Python3. 
 
-Step 1: The installation guidelines for both are provided: [Apache Cassandra (http://cassandra.apache.org/doc/latest/getting_started/installing.html) &  [Anaconda](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x).
+**Step 1: The installation guidelines for both are provided: [Apache Cassandra](http://cassandra.apache.org/doc/latest/getting_started/installing.html) &  [Anaconda](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x).**
 
-Step 2: Outside the terminal, first download data.zip.
+**Step 2: Outside the terminal, first download data.zip.**
 
-Step 3: Inside the terminal, type followings line by line (if in a local machine, might need to initiate Apache Cassandra first):
+**Step 3: Inside the terminal, type followings line by line (if in a local machine, might need to initiate Apache Cassandra first):**
 ```
 python kevin_create_event_csv.py (generate a narrow-down csv event file from all csv files)
 python kevin_cassandra_creat_tables.py (create three tables in Apache Cassandra)
@@ -97,4 +97,4 @@ python kevin_cassandra_etl.py (insert corresponding records in three tables)
 ```
 (Note that the keyspace setting will be different on your local machine.)
 
-Step 4: Finally, open kevin_cassandra_testing.ipynb to test the tables created in 'cassanrda_isongs' keyspace and to answer the questions.
+**Step 4: Finally, open kevin_cassandra_testing.ipynb to test the tables created in 'cassanrda_isongs' keyspace and to answer the questions.**
