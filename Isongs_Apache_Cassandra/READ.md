@@ -9,7 +9,7 @@ The advantages of NoSQL databases include:
   - Store different data type formats
   - High throughput
   - A flexible schema design
-  - Horizontal scalability (more nodes or clusters, a linear scalability can be achieved)
+  - Horizontal scalability (linear scalability can be achieved if more nodes or clusters are provided)
   - High availability (fast reads)
 
     
@@ -28,7 +28,7 @@ Throughout this project, I have achieved the following tasks:
 
 - Data modeling with Apache Cassandra.
 - Built an ETL pipeline which transfers data from csv files in local directories into tables in Apache Cassandra using Python and CQL queries (Cassandra Query Language).
-- Formulated queries for answering specific questions (as I illustrated abov in introduction).
+- Formulated queries for answering specific questions (as I illustrated above).
 
 
 # Technology
@@ -45,7 +45,7 @@ Below is the screenshot of '2018-11-12-events.csv':
 
 <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/2018.11.12_event.png"/> 
 
-I am more focus in specific attributes (11 items) compared with the original csv files:
+I am more focus on specific attributes (11 items) compared with the original csv files:
 
 <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/image_event_datafile_new.jpg"/> 
 
@@ -53,9 +53,9 @@ I am more focus in specific attributes (11 items) compared with the original csv
 # Key Methodology
 
 ## Schema Design
-The special thing in design a Schema in Apache Cassandra is to 'think queries first'.
+The special thing in schema designing in Apache Cassandra is to 'think queries first'.
 
-In order to answer the above proposed questions, following three tables were created: 
+In order to answer the proposed questions, following three tables were created: 
 
 <p align="center">
   <b>1.session_item_library:</b>
@@ -90,10 +90,10 @@ The installation guidelines for both are provided: [Apache Cassandra](http://cas
 
 Inside the terminal, type followings line by line (if in a local machine, might need to initiate Apache Cassandra first):
 ```
-python kevin_create_event_csv.py
-python kevin_cassandra_creat_tables.py
-python kevin_cassandra_etl.py
+python kevin_create_event_csv.py (generate a narrow-down csv event file from total all csv files)
+python kevin_cassandra_creat_tables.py (create three tables in Apache Cassandra)
+python kevin_cassandra_etl.py (insert corresponding records in three tables)
 ```
 (Note that the keyspace setting will be different on your local machine.)
 
-Finally, open kevin_cassandra_testing.ipynb to test the tables created in cassanrda_isongs keyspace.
+Finally, open kevin_cassandra_testing.ipynb to test the tables created in 'cassanrda_isongs' keyspace and to answer the questions.
