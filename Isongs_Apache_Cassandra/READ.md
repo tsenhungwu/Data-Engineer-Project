@@ -34,7 +34,7 @@ Throughout this project, I have achieved the following tasks:
 # Technology
 <p align="middle">
   <img height="270" width="300" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/Apache_Cassandra.jpg" />
-  <img height="250" width="500" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Python.png" />
+  <img height="235" width="500" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Python.png" />
 </p>
 
 
@@ -60,7 +60,7 @@ In order to answer the above proposed questions, following three tables were cre
 <p align="center">
   <b>1.session_item_library:</b>
   <br>Attain artist names, song titles and songs' duration in a music app history that was heard during specific sessions and number of items.<br>
-  <br>Partition Keys: <br>
+  <br>Partition Keys: (sessionId, itemInSession) <br>
   <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/session_item_library.png" />
 </p>
 
@@ -68,6 +68,7 @@ In order to answer the above proposed questions, following three tables were cre
 <p align="center">
   <b>2.user_session_library:</b>
   <br>Obtain artist names, song titles and a user's name in a music app history that was heard by a particular user and session.<br>
+  <br>Partition Keys: (userId, sessionId) / Clustering Column: itemInSession <br>
   <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/user_session_library.png" />
 </p>
 
@@ -75,6 +76,7 @@ In order to answer the above proposed questions, following three tables were cre
 <p align="center">
   <b>3.song_library:</b>
   <br>Obtain artist names, song titles and a user's name in a music app history that was heard by a particular user and session.<br>
+  <br>Partition Keys: (song, userId) <br>
   <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/song_library.png" />
 </p>
 
@@ -83,16 +85,17 @@ In order to answer the above proposed questions, following three tables were cre
 
 
 # How does this project work?
-To run the project successfully on a local machine, we need PostgreSQL and Python3. 
+To run the project successfully on a local machine, we need Apache Cassandra and Python3. 
 
-The installation guidelines for both are provided: [PostgreSQL](https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb) &  [Anaconda](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x).
+The installation guidelines for both are provided: [Apache Cassandra](http://cassandra.apache.org/doc/latest/getting_started/installing.html) &  [Anaconda](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x).
 
 
-Inside the terminal, type followings line by line:
+Inside the terminal, type followings line by line (if in a local machine, might need to initiate Apache Cassandra first):
 ```
-python kevin_create_tables.py
-python kevin_etl.py
+python kevin_create_event_csv.py
+python kevin_cassandra_creat_tables.py
+python kevin_cassandra_etl.py
 ```
-(Note that the database setting will be different on your local machine.)
+(Note that the keyspace setting will be different on your local machine.)
 
-Finally, open kevin_testing.ipynb to test the tables created in isongs database.
+Finally, open kevin_cassandra_testing.ipynb to test the tables created in cassanrda_isongs keyspace.
