@@ -5,7 +5,7 @@
 Compared with relational databases such as PostgreSQL ([My first PostgreSQL Data Modeling Project](https://github.com/tsenhungwu/Data-Engineer-Project/tree/master/Isongs)), NoSQL databases have advantages which can't be accomplished in relational databases.
 
 The advantages of NoSQL databases include:
-  - Deal with Large amounts of data
+  - Deal with large amounts of data (big data)
   - Store different data type formats
   - High throughput
   - A flexible schema design
