@@ -45,7 +45,7 @@ Below is the screenshot of '2018-11-12-events.csv':
 
 <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/2018.11.12_event.png"/> 
 
-I am more focus on specific attributes (11 items) compared with the original csv files:
+I focused on specific attributes (11 items) compared with the original csv files:
 
 <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/image_event_datafile_new.jpg"/> 
 
