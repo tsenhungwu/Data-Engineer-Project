@@ -35,15 +35,17 @@ Throughout this project, I have achieved the following tasks:
 
 
 # Raw Data Exploration
-Data has been recorded between the dates November 1, 2018 and November 30, 2018.
+Data currently resides in the S3 bucket in a JSON format and it's divided into two domains, Song Data and Log Data.
 
-Below is the screenshot of '2018-11-12-events.csv':
 
-<img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/2018.11.12_event.png"/> 
 
-I focused on specific attributes (11 items) compared with the original csv files:
+Below is the screenshot of '2018-11-12-events.json':
 
-<img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/image_event_datafile_new.jpg"/> 
+<img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/log-data.png"/> 
+
+And, another screenshot of 'TRAAABD128F429CF47.json':
+
+<img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/song_data.png"/> 
 
 
 # Key Methodology
