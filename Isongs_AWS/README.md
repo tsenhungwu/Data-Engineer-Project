@@ -12,7 +12,7 @@ The advantages of using AWS to build cloud-based data warehouses:
 
 Now, a music streaming platform has grown its user base and song database, and thus moving its data on the cloud might be a good choice. Currently, data resides in AWS S3 in a directory of JSON logs on user activity on the platform, as well as a directory with JSON metadata on it.
 
-Again, using AWS, we can still answerer the specific questions proposed by the analytics team:  
+Again, using AWS, we can still answer the specific questions proposed by the analytics team:  
   - What types of songs and artists are users listening to?
   - When is the most frequent time users logging into the app?
   - How long have users stayed on the app for each logging activity?
