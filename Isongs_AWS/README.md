@@ -4,7 +4,7 @@
 # Introduction
 Compared with relational databases ([My PostgreSQL Data Modeling Project](https://github.com/tsenhungwu/Data-Engineer-Project/tree/master/Isongs)) and NoSQL databases ([My Apache Cassandra Data Modeling Project](https://github.com/tsenhungwu/Data-Engineer-Project/tree/master/Isongs_Apache_Cassandra)), Data Warehouses implemented and hosted on a cloud-based platform (Amazon Web Services or AWS) have severl advantages:
 
-The advantages of using AWS as cloud-based data warehouses:
+The advantages of using AWS to build cloud-based data warehouses:
   - Lower barrier to enter (we don't buy stuff but rent!)
   - May add or change as we need
   - Scalability and elasticity out of the box (add and remove resources)
