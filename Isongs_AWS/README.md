@@ -35,8 +35,7 @@ Throughout this project, I have achieved the following tasks:
 
 
 # Raw Data Exploration
-Data currently resides in the S3 bucket in a JSON format and it's divided into two domains, Song Data and Log Data.
-
+Data currently resides in the S3 bucket in a JSON format and it's divided into two domains, Log Data and Song Data.
 
 
 Below is the screenshot of '2018-11-12-events.json':
@@ -51,33 +50,12 @@ And, another screenshot of 'TRAAABD128F429CF47.json':
 # Key Methodology
 
 ## Schema Design
-The special thing in schema designing in Apache Cassandra is to 'think queries first'.
 
-In order to answer the proposed questions, following three tables were created: 
-
-<p align="center">
-  <b>1.session_item_library:</b>
-  <br>Attain artist names, song titles and songs' duration in a music app history that was heard during specific sessions and number of items.<br>
-  <br>Partition Keys: (sessionId, itemInSession) <br>
-  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/session_item_library.png" />
-</p>
-
+In order to answer the proposed questions, following dimension tables and a fact table were created: 
 
 <p align="center">
-  <b>2.user_session_library:</b>
-  <br>Obtain artist names, song titles and a user's name in a music app history that was heard by a particular user and session.<br>
-  <br>Partition Keys: (userId, sessionId) / Clustering Column: itemInSession <br>
-  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/user_session_library.png" />
+  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/ERD.png"/>
 </p>
-
-
-<p align="center">
-  <b>3.song_library:</b>
-  <br>Obtain artist names, song titles and a user's name in a music app history that was heard by a particular user and session.<br>
-  <br>Partition Keys: (song, userId) <br>
-  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/song_library.png" />
-</p>
-
 
 
 # How does this project work?
