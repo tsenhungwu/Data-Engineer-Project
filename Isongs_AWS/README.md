@@ -33,7 +33,9 @@ Throughout this project, I have achieved the following tasks:
 
 # Technology
 <p align="middle">
-  <img height="270" width="300" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_Apache_Cassandra/Images/Apache_Cassandra.jpg" />
+  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/aws_redshift.png"/>
+  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/aws_s3.png"/>
+  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/aws_ec2.png"/>
   <img height="235" width="500" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Python.png" />
 </p>
 
