@@ -2,15 +2,15 @@
   <img width="450" height="380" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Isongs.png" />
   
 # Introduction
-Compared with relational databases such as PostgreSQL ([My first PostgreSQL Data Modeling Project](https://github.com/tsenhungwu/Data-Engineer-Project/tree/master/Isongs)), NoSQL databases have advantages which can't be accomplished in relational databases.
+Compared with relational databases ([My PostgreSQL Data Modeling Project](https://github.com/tsenhungwu/Data-Engineer-Project/tree/master/Isongs)) and NoSQL databases ([My Apache Cassandra Data Modeling Project](https://github.com/tsenhungwu/Data-Engineer-Project/tree/master/Isongs_Apache_Cassandra)), Data Warehouses implemented and hosted on a cloud-based platform (Amazon Web Services or AWS) have severl advantages:
 
-The advantages of NoSQL databases include:
-  - Deal with large amounts of data (big data)
-  - Store different data type formats
-  - High throughput
-  - A flexible schema design
-  - Horizontal scalability (linear scalability can be achieved if more nodes or clusters are provided)
-  - High availability (fast reads)
+The advantages of using AWS as cloud-based data warehouses:
+  - Lower barrier to enter (we don't buy stuff but rent!)
+  - May add or change as we need
+  - Scalability and elasticity out of the box (add and remove resources)
+
+
+Now, a music streaming platform has grown its user base and song database, and thus moving its data on the cloud might be a good choice. Currently, data resides in AWS S3 in a directory of JSON logs on user activity on the platform, as well as a directory with JSON metadata on it.
 
     
 On a music streaming platform such as an app or a website, data have been transferred among different activities every day down to every millisecond.
@@ -33,10 +33,10 @@ Throughout this project, I have achieved the following tasks:
 
 # Technology
 <p align="middle">
-  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/aws_redshift.png"/>
-  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/aws_s3.png"/>
-  <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/aws_ec2.png"/>
-  <img height="235" width="500" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Python.png" />
+  <img height="125" width="250" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/aws_redshift.png"/>
+  <img height="200" width="320" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/aws_s3.png"/>
+  <img height="150" width="250" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/aws_ec2.png"/>
+  <img height="220" width="500" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Python.png" />
 </p>
 
 
