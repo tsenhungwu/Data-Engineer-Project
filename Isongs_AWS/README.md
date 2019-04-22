@@ -12,31 +12,25 @@ The advantages of using AWS to build cloud-based data warehouses:
 
 Now, a music streaming platform has grown its user base and song database, and thus moving its data on the cloud might be a good choice. Currently, data resides in AWS S3 in a directory of JSON logs on user activity on the platform, as well as a directory with JSON metadata on it.
 
-    
-On a music streaming platform such as an app or a website, data have been transferred among different activities every day down to every millisecond.
-To fully utilize the data and perform profound analysis on users' activities, it's extremely critical to design an architect or a data pipeline in an efficient way such that following analysis can be completed accordingly and iteratively.
-
-The analytics team might be particularly interested in answering the following questions (in an efficient way!): 
-  - Attain artist names, song titles and songs' duration in a music app history that was heard during specific sessions and number of items.
-  - Obtain artist names, song titles and a user's name in a music app history that was heard by a particular user and session.
-  - Acquire users' names in a music app history who listened to a certain song.
+Again, using AWS, we can still answerer the specific questions proposed by the analytics team:  
+  - What types of songs and artists are users listening to?
+  - When is the most frequent time users logging into the app?
+  - How long have users stayed on the app for each logging activity?
 
 # Objectives
-Previously, there was no easy way to query the data to generate the results, since the data resided in a directory of CSV files on user activity on the app.
-
 Throughout this project, I have achieved the following tasks:
 
-- Data modeling with Apache Cassandra.
-- Built an ETL pipeline which transfers data from csv files in local directories into tables in Apache Cassandra using Python and CQL queries (Cassandra Query Language).
-- Formulated queries for answering specific questions (as I illustrated above).
+- Built an ETL pipeline which extracts data from S3 bucket and stages data in Redshift.
+- Optimized table design in Redshift to achieve a faster data ingestion process.
+- Transformed data into a set of dimensional tables and fact table for continued analysis.
 
 
 # Technology
 <p align="middle">
   <img height="125" width="250" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/aws_redshift.png"/>
-  <img height="200" width="320" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/aws_s3.png"/>
+  <img height="200" width="300" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/aws_s3.png"/>
   <img height="150" width="250" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/aws_ec2.png"/>
-  <img height="220" width="500" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Python.png" />
+  <img height="210" width="510" src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/Python.png" />
 </p>
 
 
