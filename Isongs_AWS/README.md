@@ -72,11 +72,11 @@ To run the project successfully on a local machine, we need to have the followin
 ```
 python kevin_aws_create_tables.py 
 ```
-- It will create staging tables copying data from S3 bucket, and form dimension and fact tables for Star schema
+- It will create staging tables copying data from S3 bucket, and form dimension and fact tables fitted for the predefined Star schema.
 ```
 python kevin_aws_etl.py
 ```
-- insert corresponding records from staging tables into dimension and fact tables
+- Insert corresponding records from staging tables into dimension and fact tables.
 
 **Step 5: Finally, open kevin_aws_testing.ipynb to test whether tables created properly.**
 
