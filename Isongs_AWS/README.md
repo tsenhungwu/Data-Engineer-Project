@@ -63,16 +63,20 @@ To run the project successfully on a local machine, we need to have the followin
 
 **Step 1: Register an account in [AWS](https://aws.amazon.com/#)**
 
-**Step 3: Create an IAM user in your AWS account, give it 'AdministratorAccess', and save your access and secret key**
+**Step 2: Create an IAM user in your AWS account, give it 'AdministratorAccess', and save your access and secret key**
 - Notice that DO NOT share your Access key ID & Secret access key!!!
 
 **Step 3: Create an IAM Role and construct a Redshift cluster in AWS_setting.ipynb**
 
 **Step 4: Inside the terminal, type followings line by line**
 ```
-python kevin_aws_create_tables.py (create staging tables copying data from S3 bucket, and dimension and fact tables for Star schema)
-python kevin_aws_etl.py (insert corresponding records from staging tables into dimension and fact tables)
+python kevin_aws_create_tables.py 
 ```
+- It will create staging tables copying data from S3 bucket, and dimension and fact tables for Star schema
+```
+python kevin_aws_etl.py
+```
+- insert corresponding records from staging tables into dimension and fact tables
 
 **Step 5: Finally, open kevin_aws_testing.ipynb to test whether tables created properly.**
 
