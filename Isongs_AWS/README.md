@@ -68,7 +68,9 @@ To run the project successfully on a local machine, we need to have the followin
 
 **Step 3: Create an IAM Role and construct a Redshift cluster in AWS_setting.ipynb**
 
-**Step 4: Inside the terminal, type followings line by line**
+**Step 4: Create and modify your .cfg file (configuration file) to specify parameters for your Redshift cluster**
+
+**Step 5: Inside the terminal, type followings line by line**
 ```
 python kevin_aws_create_tables.py 
 ```
