@@ -72,7 +72,7 @@ To run the project successfully on a local machine, we need to have the followin
 ```
 python kevin_aws_create_tables.py 
 ```
-- It will create staging tables copying data from S3 bucket, and dimension and fact tables for Star schema
+- It will create staging tables copying data from S3 bucket, and form dimension and fact tables for Star schema
 ```
 python kevin_aws_etl.py
 ```
