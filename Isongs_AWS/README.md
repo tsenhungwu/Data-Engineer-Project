@@ -61,14 +61,14 @@ In order to answer the proposed questions, following dimension tables and a fact
 # How does this project work?
 To run the project successfully on a local machine, we need to have the following preparations:
 
-**Step 1: Register an account in [AWS](https://aws.amazon.com/#)
+**Step 1: Register an account in [AWS](https://aws.amazon.com/#)**
 
-**Step 3: Create an IAM user in your AWS account, give it 'AdministratorAccess', and save your access and secret key
+**Step 3: Create an IAM user in your AWS account, give it 'AdministratorAccess', and save your access and secret key**
 - Notice that DO NOT share your Access key ID & Secret access key!!!
 
-**Step 3: Create an IAM Role and construct a Redshift cluster in AWS_setting.ipynb 
+**Step 3: Create an IAM Role and construct a Redshift cluster in AWS_setting.ipynb**
 
-**Step 4: Inside the terminal, type followings line by line 
+**Step 4: Inside the terminal, type followings line by line**
 ```
 python kevin_aws_create_tables.py (create staging tables copying data from S3 bucket, and dimension and fact tables for Star schema)
 python kevin_aws_etl.py (insert corresponding records from staging tables into dimension and fact tables)
