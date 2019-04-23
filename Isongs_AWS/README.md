@@ -38,11 +38,11 @@ Throughout this project, I have achieved the following tasks:
 Data currently resides in the S3 bucket in a JSON format and it's divided into two domains, Log Data and Song Data.
 
 
-Below is the screenshot of '2018-11-12-events.json':
+Below, I took an example to demostrate a log file, such as '2018-11-12-events.json':
 
 <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs_AWS/Images/log-data.png"/> 
 
-And, another screenshot of 'TRAAABD128F429CF47.json':
+And, another example of a song file, such as 'TRAAABD128F429CF47.json':
 
 <img src="https://github.com/tsenhungwu/Data-Engineer-Project/blob/master/Isongs/Images/song_data.png"/> 
 
@@ -59,19 +59,21 @@ In order to answer the proposed questions, following dimension tables and a fact
 
 
 # How does this project work?
-To run the project successfully on a local machine, we need Apache Cassandra and Python3. 
+To run the project successfully on a local machine, we need to have the following preparations:
 
-**Step 1: The installation guidelines of both are provided: [Apache Cassandra](http://cassandra.apache.org/doc/latest/getting_started/installing.html) &  [Anaconda](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x).**
+**Step 1: Register an account in [AWS](https://aws.amazon.com/#)
 
-**Step 2: Outside the terminal, first download data.zip and unzip it.**
+**Step 3: Create an IAM user in your AWS account, give it 'AdministratorAccess', and save your access and secret key
+- Notice that DO NOT share your Access key ID & Secret access key!!!
 
-**Step 3: Inside the terminal, type followings line by line (if in a local machine, might need to initiate Apache Cassandra first):**
+**Step 3: Create an IAM Role and construct a Redshift cluster in AWS_setting.ipynb 
+
+**Step 4: Inside the terminal, type followings line by line 
 ```
-python kevin_create_event_csv.py (generate a narrow-down csv event file from all csv files)
-python kevin_cassandra_creat_tables.py (create three tables in Apache Cassandra)
-python kevin_cassandra_etl.py (insert corresponding records in three tables)
+python kevin_aws_create_tables.py (create staging tables copying data from S3 bucket, and dimension and fact tables for Star schema)
+python kevin_aws_etl.py (insert corresponding records from staging tables into dimension and fact tables)
 ```
-(Note that the keyspace setting will be different on your local machine.)
 
-**Step 4: Finally, open kevin_cassandra_testing.ipynb to test the tables created in 'cassanrda_isongs' keyspace and to answer the questions.**
+**Step 5: Finally, open kevin_aws_testing.ipynb to test whether tables created properly.**
+
 
