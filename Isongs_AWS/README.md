@@ -80,6 +80,6 @@ python kevin_aws_etl.py
 ```
 - Insert corresponding records from staging tables into dimension and fact tables.
 
-**Step 5: Finally, open kevin_aws_testing.ipynb to test whether tables created properly.**
+**Step 6: Finally, open kevin_aws_testing.ipynb to test whether tables created properly.**
 
 
