@@ -66,9 +66,9 @@ To run the project successfully on a local machine, we need to have the followin
 **Step 2: Create an IAM user in your AWS account, give it 'AdministratorAccess', and save your access and secret key**
 - Notice that DO NOT share your Access key ID & Secret access key!!!
 
-**Step 3: Create an IAM Role and construct a Redshift cluster in AWS_setting.ipynb**
+**Step 3: Create and modify your .cfg file (configuration file) to specify parameters for your Redshift cluster**
 
-**Step 4: Create and modify your .cfg file (configuration file) to specify parameters for your Redshift cluster**
+**Step 4: Create an IAM Role and construct a Redshift cluster in AWS_setting.ipynb**
 
 **Step 5: Inside the terminal, type followings line by line**
 ```
